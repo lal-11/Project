@@ -1,0 +1,13 @@
+package Multiple_Interface;
+public class test implements multiple
+{
+    public void print()
+    {
+        System.out.println("This is Multiple Interface");
+    }
+public static void main(String args[])
+{
+    test t = new test();
+    t.print();
+}
+}
